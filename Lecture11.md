@@ -91,6 +91,7 @@ hidden2 = torch.max(hidden1, dim=2)     # max pool
 - 首先是一个卷积层，然后是最大池化层
 - 获取最终的特征向量（使用100个特征映射，每个尺寸是3，4，5）
 - 最后是简单的softmax层
+
 参考论文：[Zhang and Wallace(2015) A Sensitivity Analysis of (and Practitioners’ Guide to) Convolutional Neural Networks for Sentence Classification](https://arxiv.org/pdf/1510.03820.pdf)
 
 ### 正则化
