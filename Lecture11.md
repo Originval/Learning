@@ -4,7 +4,8 @@
 通常在最后的向量中捕获太多最后的单词
 - E.g., softmax通常在最后一步使用
 
-卷积层的++主要思想++：
+卷积层的**主要思想**：
+
 如果我们对于每个特定长度的所有可能的单词子序列都计算向量呢？
 - 举个例子: 对"tentative deal reached to keep government open" 这句话会计算的短语向量如下:
 - - tentative deal reached, deal reached to, reached to keep, to keep government, keep government open
